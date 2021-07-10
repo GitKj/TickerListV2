@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEE3E8"
+    android:backgroundTint="#B2E2E8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Watchlist 2.0"
+        android:textColor="#323A63"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv_tickerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:text="Ticker Name:"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/et_tickerName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint="Enter ticker here."
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#26B12C"
+        android:onClick="SaveToDatabase"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btn_viewDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-65dp"
+        android:layout_marginTop="-49dp"
+        android:backgroundTint="#323A63"
+        android:onClick="switchToDBView"
+        android:text="View Companies" />
+
+    <Button
+        android:id="@+id/btn_clrDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:backgroundTint="#E61432"
+        android:onClick="clearDatabase"
+        android:text="Clear Database" />
+
+</LinearLayout>

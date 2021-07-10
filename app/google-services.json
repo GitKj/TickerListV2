@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137367093233",
+    "project_id": "tickerlist-2",
+    "storage_bucket": "tickerlist-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137367093233:android:d45a4a5e55a21216900e50",
+        "android_client_info": {
+          "package_name": "com.example.tickerlistv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137367093233-tvbd7jsm87v5blqrunodro2j3iulgnib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOffwoQc26Dgd4HREo19Szqi-x5QTC-T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137367093233-tvbd7jsm87v5blqrunodro2j3iulgnib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
